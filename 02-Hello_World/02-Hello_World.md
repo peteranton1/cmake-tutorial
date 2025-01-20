@@ -4,7 +4,9 @@
 
 ## Purpose
 
-This folder shows A simple example CMake using a Hello World source file. 
+This folder shows A simple example 
+of compiling a c program
+using a Hello World source file. 
 
 ## Compile hello.c manually
 

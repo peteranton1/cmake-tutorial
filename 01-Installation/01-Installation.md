@@ -1,4 +1,4 @@
-# 01 - Installation
+# 01 - Installation gcc & CMake
 
 [Back to Index](../README.md)
 
@@ -34,5 +34,9 @@ This folder shows how to install CMake using gcc
     See 'snap info cmake' for additional versions.
 
     $ sudo snap install cmake
+
+or 
+
+    $ sudo apt-get install build-essential
 
 
