@@ -88,3 +88,17 @@ Directory structure
     $ cmake ..
     $ ls
 
+## The Beauty of CMake 
+
+CMake can generate build files for other build systems as well as Make:
+
+- Ninja
+- Visual Studio
+- XCode
+
+This means the same CMakeLists.txt can be used to generate
+files for alternative build systems.
+
+
+
+
