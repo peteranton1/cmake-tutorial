@@ -19,25 +19,28 @@ here is an example of Make.
     CFLAGS = -Wall -Wextra -g
     
     # Target executable name
-    TARGET = hello
+    TARGET = random_main
     
     # Source files
-    SRCS = hello.c
+    SRCS = random_main.c random.c
     
     # Object files (replace .c with .o)
     OBJS = $(SRCS:.c=.o)
+    
+    # Include Maths library
+    LIBS = -lm
     
     # Default rule to build target
     all: $(TARGET)
     
     # Link object files to create the executable
-    $(TARGET): $(SRCS)
-        $(CC) $(CFLAGS) -o $(TARGET) $(OBJS)
+    $(TARGET): $(OBJS)
+        $(CC) $(CFLAGS) -o $(TARGET) $(OBJS) $(LIBS)
     
-    # compile source files into object files
+    # Compile source files with object files
     %.o: %.c
-        $(CC) $(CFLAGS) -c $< -o $@
-
+        $(CC) -c $< -o $@
+    
     # Clean up build files
     clean:
         rm -f $(OBJS) $(TARGET)
