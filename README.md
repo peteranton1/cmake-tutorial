@@ -21,3 +21,7 @@ cherry-pick any specific example.
 1. [Installation gcc & CMake](01-Installation/01-Installation.md) 
 2. [Hello World program](02-Hello_World/02-Hello_World.md) 
 3. [Program with Library](03-Program_With_Lib/03-Program_With_Lib.md) 
+4. [Hello World with Make](04-Hello_World_with_Make/04-Hello_World_with_Make.md) 
+5. [Make with Symbols](05-Make_with_Symbols/05-Make_with_Symbols.md) 
+6. [Make with multiple source files](06-Make_with_multiple_source_files/06-Make_with_multiple_source_files.md)
+
