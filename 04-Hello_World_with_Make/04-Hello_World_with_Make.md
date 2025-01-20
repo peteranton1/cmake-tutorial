@@ -28,13 +28,18 @@ There is an extra file called Makefile
     $ make hello
 
     $ ls
-    04-Hello_World_with_Make.md  
+    04-Hello_World_with_Make.md
+    hello
     hello.c  
     Makefile
 
     $ ./hello
     Hello World
 
+    $ make clean
 
-
+    $ ls
+    04-Hello_World_with_Make.md
+    hello.c  
+    Makefile
 
