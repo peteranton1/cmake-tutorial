@@ -25,18 +25,12 @@ This folder shows how to install CMake using gcc
     Processing triggers for man-db (2.12.0-4build2) ...
     Processing triggers for libc-bin (2.39-0ubuntu8.3) ...
 
-## Install CMake 
-
-    $ cmake
-    Command 'cmake' not found, but can be installed with:
-    sudo snap install cmake  # version 3.31.4, or
-    sudo apt  install cmake  # version 3.27.8-1build1
-    See 'snap info cmake' for additional versions.
-
-    $ sudo snap install cmake
-
-or 
+## Install Make 
 
     $ sudo apt-get install build-essential
+
+## Install CMake
+
+    $ sudo apt-get install cmake
 
 

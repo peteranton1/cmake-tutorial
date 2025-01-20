@@ -24,4 +24,13 @@ cherry-pick any specific example.
 4. [Hello World with Make](04-Hello_World_with_Make/04-Hello_World_with_Make.md) 
 5. [Make with Symbols](05-Make_with_Symbols/05-Make_with_Symbols.md) 
 6. [Make with multiple source files](06-Make_with_multiple_source_files/06-Make_with_multiple_source_files.md)
+7. [CMake for Makefiles](07-CMake_for_Makefiles/07-CMake_for_Makefiles.md)
+   1. Example 1: hello
+   2. Example 2: random
+
+## Further Info
+
+Checkout youtube tutorial here:
+
+https://youtu.be/NGPo7mz1oa4?si=lZUKDwLfoAd8jFMS
 
