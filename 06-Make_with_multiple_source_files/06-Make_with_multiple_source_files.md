@@ -52,7 +52,7 @@ here is an example of Make.
 
 ## Running just compile for individual source
 
-    $ make hello.o
+    $ make random.o
 
 ## Clean all
 
