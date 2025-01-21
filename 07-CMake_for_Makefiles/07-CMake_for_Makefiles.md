@@ -99,6 +99,14 @@ CMake can generate build files for other build systems as well as Make:
 This means the same CMakeLists.txt can be used to generate
 files for alternative build systems.
 
+### Build using Ninja
+
+Example of another build system is Ninja. 
+
+Example command 
+
+    $ cmake -G Ninja ..
+
 
 
 

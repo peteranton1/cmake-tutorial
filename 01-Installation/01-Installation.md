@@ -33,4 +33,7 @@ This folder shows how to install CMake using gcc
 
     $ sudo apt-get install cmake
 
+## Install Ninja (optional)
+
+    $ sudo apt install ninja-build
 
